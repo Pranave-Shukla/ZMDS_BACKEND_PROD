@@ -7,7 +7,7 @@ hibernate:
       factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
 spring:
   profiles:
-    active: qa
+    active: prod
   jpa:
     show-sql: false
     generate-ddl: false
